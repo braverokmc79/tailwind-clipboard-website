@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 구글 폰트 및 외부 스타일시트 연결 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+
+
+    <title>Clipboard Website</title>
+  </head>
+  <body>
+    <!-- Hero 섹션: 로고, 헤딩, 설명, iOS/Mac 다운로드 버튼 -->
+    <section id="hero">
+      <div class="section-container mb-40 pt-16">
+        <img src="images/logo.svg" alt="" class="mx-auto my-16" />
+        <h3 class="font-sans">복사한 모든 것의 기록</h3>
+        <p class="section-content mb-10 text-2xl">
+          클립보드를 사용하면 복사한 모든 항목을 추적하고 정리할 수 있습니다.
+          모든 기기에서 클립보드를 즉시 사용할 수 있습니다.
+        </p>
+        <div class="button-container">
+          <a
+            href="#"
+            class="p-4 px-8 rounded-full shadow-lg bg-strongCyan duration-200 hover:opacity-80"
+          >
+            iOS 다운로드
+          </a>
+          <a
+            href="#"
+            class="p-4 px-8 rounded-full shadow-lg bg-lightBlue duration-200 hover:opacity-80"
+          >
+            Mac용 다운로드
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Snippets 섹션: 클립보드 기능 설명 -->
+    <section id="snippets">
+      <div class="section-container my-20">
+        <h3>스니펫을 추적하세요</h3>
+        <p class="section-content mb-24 text-xl">
+          클립보드는 복사한 모든 항목을 클라우드에 즉시 저장하므로 모든 기기에서
+          스니펫에 쉽게 접근할 수 있습니다. Mac과 iOS 앱으로 모든 항목을 정리할 수 있습니다.
+        </p>
+      </div>
+    </section>
+
+    <!-- Features 섹션: 주요 기능 3가지 소개 -->
+    <section id="features">
+      <div class="section-container my-20">
+        <div class="relative flex flex-col md:flex-row md:space-x-32">
+          <div class="md:w-1/2">
+            <img
+              src="images/image-computer.png"
+              alt=""
+              class="md:absolute top-0 right-[50%]"
+            />
+          </div>
+          <div
+            class="flex flex-col mt-16 mb-24 space-y-12 text-xl md:w-1/2 md:mb-60 md:text-left md:pl-16"
+          >
+            <div>
+              <h5>빠른 검색</h5>
+              <p class="max-w-md text-grayishBlue">
+                스니펫을 내용, 카테고리, 웹 주소, 애플리케이션 등으로 쉽게 검색하세요.
+              </p>
+            </div>
+            <div>
+              <h5>iCloud 동기화</h5>
+              <p class="max-w-md text-grayishBlue">
+                모든 기기에서 스니펫이 즉시 저장되고 동기화됩니다.
+              </p>
+            </div>
+            <div>
+              <h5>완전한 기록</h5>
+              <p class="max-w-md text-grayishBlue">
+                앱 사용을 시작한 첫 순간부터 모든 스니펫을 검색할 수 있습니다.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Access Anywhere 섹션: 어디서든지 클립보드 접근 가능 -->
+    <section id="access">
+      <div class="section-container my-20">
+        <h3>어디서나 클립보드에 접근하세요</h3>
+        <p class="section-content mb-24 text-xl">
+          이동 중이든 컴퓨터 앞에 있든, 몇 번의 클릭만으로 모든 스니펫에 접근할 수 있습니다.
+        </p>
+        <img src="images/image-devices.png" alt="" class="mx-auto" />
+      </div>
+    </section>
+
+    <!-- Supercharge 섹션: 생산성 향상 도구 소개 -->
+    <section id="supercharge">
+      <div class="section-container my-20">
+        <h3>작업 흐름을 강화하세요</h3>
+        <p class="section-content mb-16 text-xl">
+          생산성을 높일 수 있는 도구를 제공합니다.
+        </p>
+        <div class="flex flex-col items-center justify-between space-y-16 md:flex-row md:space-y-0 md:space-x-12">
+          <div class="flex flex-col items-center space-y-5">
+            <img src="images/icon-blacklist.svg" alt="" class="mb-6" />
+            <h5>블랙리스트 생성</h5>
+            <p class="max-w-md text-grayishBlue">
+              특정 스니펫을 검색하거나 관리할 수 있습니다.
+            </p>
+          </div>
+          <div class="flex flex-col items-center space-y-5">
+            <img src="images/icon-text.svg" alt="" class="mb-6" />
+            <h5>평문 텍스트 스니펫</h5>
+            <p class="max-w-md text-grayishBlue">
+              복사한 텍스트에서 불필요한 서식을 제거하고 일관된 형식을 유지하세요.
+            </p>
+          </div>
+          <div class="flex flex-col items-center space-y-5">
+            <img src="images/icon-preview.svg" alt="" class="mb-6" />
+            <h5>미리보기</h5>
+            <p class="max-w-md text-grayishBlue">
+              클립보드의 모든 스니펫을 빠르게 미리 볼 수 있습니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- References 섹션: 협력사 로고 -->
+    <section id="references">
+      <div
+        class="flex flex-col items-center justify-between max-w-6xl px-10 mx-auto space-y-16 my-44 md:flex-row md:space-y-0"
+      >
+        <img src="images/logo-google.png" alt="" />
+        <img src="images/logo-ibm.png" alt="" />
+        <img src="images/logo-microsoft.png" alt="" />
+        <img src="images/logo-hp.png" alt="" />
+        <img src="images/logo-vector-graphics.png" alt="" />
+      </div>
+    </section>
+
+    <!-- Bottom CTA 섹션: 다운로드 링크 제공 -->
+    <section id="bottom">
+      <div class="section-container my-20">
+        <h3>iOS 및 Mac용 클립보드</h3>
+        <p class="section-content mb-10 text-xl">
+          앱스토어에서 무료로 제공됩니다. Mac 또는 iOS용으로 다운로드하고 iCloud와 동기화하여 사용을 시작하세요.
+        </p>
+        <div class="button-container">
+          <a
+            href="#"
+            class="p-4 px-8 rounded-full shadow-lg bg-strongCyan duration-200 hover:opacity-80"
+          >
+            iOS 다운로드
+          </a>
+          <a
+            href="#"
+            class="p-4 px-8 rounded-full shadow-lg bg-lightBlue duration-200 hover:opacity-80"
+          >
+            Mac용 다운로드
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer 섹션: 푸터에 메뉴와 소셜 아이콘 포함 -->
+    <footer class="bg-gray-50">
+      <div class="section-container">
+        <div class="flex flex-col items-center justify-between md:flex-row">
+          <img src="images/logo.svg" alt="" class="scale-50" />
+          <div
+            class="flex flex-col items-center justify-between flex-1 mb-10 space-y-6 md:flex-row md:mb-0 md:space-y-0 text-grayishBlue"
+          >
+            <div
+              class="flex flex-col space-y-4 md:flex-row md:ml-24 md:space-x-24 md:space-y-0"
+            >
+              <div class="flex flex-col space-y-4 text-center md:text-left">
+                <div><a href="#" class="hover:text-strongCyan">FAQ</a></div>
+                <div><a href="#" class="hover:text-strongCyan">연락처</a></div>
+              </div>
+              <div class="flex flex-col space-y-4 text-center md:text-left">
+                <div><a href="#" class="hover:text-strongCyan">개인정보 보호</a></div>
+                <div><a href="#" class="hover:text-strongCyan">이용 약관</a></div>
+              </div>
+            </div>
+            <div class="flex justify-between w-32 py-1">
+              <a href="#"><img src="images/icon-facebook.svg" alt="" /></a>
+              <a href="#"><img src="images/icon-twitter.svg" alt="" /></a>
+              <a href="#"><img src="images/icon-instagram.svg" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
